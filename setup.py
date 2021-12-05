@@ -9,7 +9,7 @@ with io.open(os.path.join(dir, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='mypytrends',
+    name='pytrends',
     version='4.7.4',
     description='Pseudo API for Google Trends',
     long_description=long_description,
